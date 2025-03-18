@@ -1,0 +1,82 @@
+/* @import url("../Outfit/static/Outfit-Regular.ttf"); */
+:root {
+    --Red: #FC4747;
+    --Dark-Blue: #10141E;
+    --Greyish-Blue: #5A698F;
+    --Semi-Dark-Blue: #161D2F;
+    --White: #FFFFFF;
+    --Outfit: "Outfit";
+}
+
+body {
+    font-family: var(--Outfit);
+    background-color: var(--Dark-Blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    row-gap: 83px;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+.login {
+    background-color: var(--Semi-Dark-Blue);
+    width: 400px;
+    height: max-content;
+    border-radius: 20px;
+    color: var(--White);
+    padding: 32px;
+}
+
+.login-title {
+
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+
+}
+
+.input-field {
+    background-color: transparent;
+    font-size: 15px;
+    color: var(--White);
+    font-weight: 400;
+    padding: 18px 16px;
+    outline: none;
+    border: unset;
+    border-bottom: 1px solid var(--Greyish-Blue);
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.login-button {
+    background-color: var(--Red);
+    color: var(--White);
+    padding: 14px 96px;
+    border-radius: 6px;
+}
+
+.sign-up__link{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--White);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 9px;
+}
+
+.sign-up__link a{
+    color: var(--Red);
+    font-size: 15px;
+    font-weight: 400;
+}
