@@ -51,7 +51,7 @@ a{
     border-bottom: 1px solid var(--Greyish-Blue);
 }
 
-.login form {
+.login-form {
     display: flex;
     flex-direction: column;
     row-gap: 24px;
@@ -69,7 +69,7 @@ a{
     font-weight: 400;
     color: var(--White);
     text-align: center;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     column-gap: 9px;
@@ -79,4 +79,19 @@ a{
     color: var(--Red);
     font-size: 15px;
     font-weight: 400;
+}
+
+.signup-form{
+    display: none;
+    flex-direction: column;
+    row-gap: 6px;
+    margin-bottom: 24px;
+}
+
+.login-form{
+    display: none;
+}
+
+.active{
+    display: flex;
 }
